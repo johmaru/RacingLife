@@ -42,6 +42,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Folder Include="Assets" />
+     <None Include="Assets\UI\MainMenu_UI.uxml" />
+     <Folder Include="Assets\UI\uss" />
+     <Folder Include="Assets\UI" />
+     <None Include="Assets\UI\uss\MainMenu_UI.uss" />
+     <Folder Include="Assets\Scene" />
      <Folder Include="Assets\Settings\HDRPDefaultResources" />
      <Folder Include="Assets\Settings" />
      <Reference Include="UnityEngine">
