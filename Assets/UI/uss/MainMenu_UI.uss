@@ -1,5 +1,42 @@
 .GameTitle_Label {
     font-size: 50px;
     -unity-font-style: bold;
-    color: rgba(0, 0, 0, 255);
+    color: rgb(0, 0, 0);
+}
+
+.BackGround {
+    flex-grow: 1;
+    -unity-background-scale-mode: stretch-to-fill;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+    background-color: rgba(46, 46, 46, 255);
+}
+
+.TitleBar {
+    width: auto;
+    background-color: rgba(100, 135, 104, 255);
+    align-items: auto;
+    justify-content: center;
+    height: auto;
+    flex-direction: column-reverse;
+    flex-shrink: 0;
+    white-space: nowrap;
+    -unity-text-align: upper-left;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.SideBar {
+    flex-direction: column;
+    align-items: auto;
+    background-color: rgba(100, 135, 104, 255);
+    justify-content: center;
+    width: 380px;
+    height: 700px;
+    flex-shrink: 0;
+    -unity-text-align: upper-left;
 }

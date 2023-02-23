@@ -1,4 +1,12 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/uss/MainMenu_UI.uss?fileID=7433441132597879392&amp;guid=c68292ce50cbeb2408338b41e4919cfa&amp;type=3#MainMenu_UI" />
-    <ui:Label text="RacingLife" display-tooltip-when-elided="true" class="GameTitle_Label" />
+    <Style src="project://database/Assets/UI/uss/MainMenu_Button.uss?fileID=7433441132597879392&amp;guid=7843b761adc49bf4e859da65e3619bca&amp;type=3#MainMenu_Button" />
+    <ui:VisualElement name="BackGround" class="BackGround" style="justify-content: center;">
+        <ui:VisualElement name="TitleBar" tabindex="0" class="TitleBar" style="align-items: auto; flex-shrink: 0; flex-direction: column; -unity-text-align: middle-left; padding-left: 1px; padding-right: 2px; padding-top: 3px; padding-bottom: 4px;">
+            <ui:Label text="Racing Life" display-tooltip-when-elided="true" usage-hints="None" name="Title_Label" class="GameTitle_Label" style="background-color: rgb(100, 135, 104); -unity-background-scale-mode: stretch-to-fill; align-items: auto; justify-content: center; -unity-text-align: middle-left; white-space: nowrap; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto; padding-left: 1px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SideBar" class="SideBar" style="align-items: flex-start; justify-content: center; flex-direction: column; flex-shrink: 0; width: 380px; height: 700px;">
+            <ui:Button text="ニューゲーム" display-tooltip-when-elided="true" name="NewGame_BTN" usage-hints="None" focusable="true" class="NewGame_BTN" style="font-size: 24px; -unity-font-style: bold; color: rgb(0, 0, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>

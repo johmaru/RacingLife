@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{688a3398-3242-3d6c-06dd-5b6e9f0f5d53}</ProjectGuid>
+    <ProjectGuid>{da32665b-66a3-533b-3501-da247e187f40}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -49,17 +49,21 @@
      <Folder Include="Assets\Wwise" />
      <Folder Include="Assets\StreamingAssets" />
      <Folder Include="Assets\UI\uss" />
+     <Folder Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks" />
      <None Include="Assets\StreamingAssets\desc.txt" />
      <Folder Include="Assets\Wwise\API" />
      <Folder Include="Assets\UI" />
      <Folder Include="Assets\Wwise\Timeline" />
+     <Folder Include="Assets\StreamingAssets\Audio" />
      <None Include="Assets\UI\uss\MainMenu_UI.uss" />
      <Folder Include="Assets\UI Toolkit" />
      <Folder Include="Assets\UI Toolkit\UnityThemes" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\ProjectInfo.xml" />
      <Folder Include="Assets\Wwise\Documentation\AppleCommon\zh" />
      <Folder Include="Assets\Scene" />
      <Folder Include="Assets\Settings\HDRPDefaultResources" />
      <Folder Include="Assets\Wwise\Gizmos" />
+     <None Include="Assets\UI\uss\MainMenu_Button.uss" />
      <None Include="Assets\Wwise\Timeline\package.json" />
      <None Include="Assets\Wwise\Version.txt" />
      <None Include="Assets\WwiseSettings.xml" />
@@ -74,6 +78,7 @@
      <Folder Include="Assets\Wwise\Documentation\Windows\ko" />
      <Folder Include="Assets\Wwise\Documentation\AppleCommon\ko" />
      <Folder Include="Assets\Wwise\Documentation\Windows\zh" />
+     <None Include="Assets\Wwise\LauncherInfo.json" />
      <Folder Include="Assets\Wwise\Tools" />
      <None Include="Assets\Wwise\MonoBehaviour\package.json" />
      <Reference Include="UnityEngine">
