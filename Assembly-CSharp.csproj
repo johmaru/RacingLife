@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{da32665b-66a3-533b-3501-da247e187f40}</ProjectGuid>
+    <ProjectGuid>{688a3398-3242-3d6c-06dd-5b6e9f0f5d53}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -42,13 +42,40 @@
   </PropertyGroup>
   <ItemGroup>
      <Folder Include="Assets" />
+     <None Include="Assets\Wwise\API\package.json" />
      <None Include="Assets\UI\MainMenu_UI.uxml" />
+     <Folder Include="Assets\Wwise\Documentation\AppleCommon" />
+     <Folder Include="Assets\Wwise\MonoBehaviour" />
+     <Folder Include="Assets\Wwise" />
+     <Folder Include="Assets\StreamingAssets" />
      <Folder Include="Assets\UI\uss" />
+     <None Include="Assets\StreamingAssets\desc.txt" />
+     <Folder Include="Assets\Wwise\API" />
      <Folder Include="Assets\UI" />
+     <Folder Include="Assets\Wwise\Timeline" />
      <None Include="Assets\UI\uss\MainMenu_UI.uss" />
+     <Folder Include="Assets\UI Toolkit" />
+     <Folder Include="Assets\UI Toolkit\UnityThemes" />
+     <Folder Include="Assets\Wwise\Documentation\AppleCommon\zh" />
      <Folder Include="Assets\Scene" />
      <Folder Include="Assets\Settings\HDRPDefaultResources" />
+     <Folder Include="Assets\Wwise\Gizmos" />
+     <None Include="Assets\Wwise\Timeline\package.json" />
+     <None Include="Assets\Wwise\Version.txt" />
+     <None Include="Assets\WwiseSettings.xml" />
      <Folder Include="Assets\Settings" />
+     <Folder Include="Assets\Wwise\Documentation\AppleCommon\ja" />
+     <Folder Include="Assets\Wwise\Documentation\Windows\ja" />
+     <Folder Include="Assets\Wwise\ScriptableObjects" />
+     <Folder Include="Assets\Wwise\Documentation" />
+     <Folder Include="Assets\Wwise\Documentation\Windows" />
+     <Folder Include="Assets\Wwise\Documentation\AppleCommon\en" />
+     <Folder Include="Assets\Wwise\Documentation\Windows\en" />
+     <Folder Include="Assets\Wwise\Documentation\Windows\ko" />
+     <Folder Include="Assets\Wwise\Documentation\AppleCommon\ko" />
+     <Folder Include="Assets\Wwise\Documentation\Windows\zh" />
+     <Folder Include="Assets\Wwise\Tools" />
+     <None Include="Assets\Wwise\MonoBehaviour\package.json" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
